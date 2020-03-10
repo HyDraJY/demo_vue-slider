@@ -1,0 +1,4 @@
+<div class="slider" @mouseenter='clearTimer' @mouseleave='setTimer'>
+  <SliderList :pic='currentPic' :list='list' :current='index'></SliderList>
+  <SliderNav :current.sync='index' :total='total'></SliderNav>
+</div>
